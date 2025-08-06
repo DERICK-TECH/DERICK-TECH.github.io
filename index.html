@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="title">Umeokeke Chijioke</span></h1>
+                <h2>Computer & Information Technology Specialist</h2>
+                <p>With 2 years of experience in web development, graphics designs and IT solutions development.
+                    Passionate about creating efficient, secure, and scalable technology solutions.</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+            <div class="hero-image">
+                <img src="img/profile.jpg"
+                    alt="CIT Professional" class="avatar">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-title">
+            <h2>About Me</h2>
+        </div>
+        <div class="about-content animate-on-scroll">
+            <div class="about-text">
+                <p>I'm a dedicated CIT professional with expertise in Frontend, Backend, and computer software problems.
+                </p>
+                <p>I hold a Diploma in Computer and Information Technology from John Bosco Institute of Technology</p>
+                <p>I enjoy learning new tools and technologies, and I’m always looking for opportunities to apply my
+                    skills in real-world projects. Whether it's coding, troubleshooting, or designing user-friendly
+                    interfaces, I approach every challenge with curiosity and a commitment to improvement.</p>
+            </div>
+            <div class="skills">
+                <h3>My Skills</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Web Development</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Graphics Design</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Networking</span>
+                        <span>30%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 30%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Software Development</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 50%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-title">
+            <h2>My Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card animate-on-scroll">
+                <img src="img/resto.png" alt="Resto Site" class="project-image">
+                <div class="project-info">
+                    <h3>Online Restaurant and Food Ordering System</h3>
+                    <p>Designed and implemented an online and offline restaurant and food ordering system</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">PWA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card animate-on-scroll">
+                <img src="img/store.png" alt="Fashion Store" class="project-image">
+                <div class="project-info">
+                    <h3>Online Fashion Store</h3>
+                    <p>Designed and developed a responsive online fashion store using HTML, CSS, and JavaScript.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card animate-on-scroll">
+                <img src="img/flier .jpg" alt="Graphics Design" class="project-image">
+                <div class="project-info">
+                    <h3>Creative Graphics Design</h3>
+                    <p>Designed visually appealing brand assets including logos, social media banners, and promotional
+                        materials using Adobe Photoshop and Canva to boost brand identity and engagement.</p>
+                    <div class="project-tags">
+                        <span class="tag">Photoshop</span>
+                        <span class="tag">Canva</span>
+                        <span class="tag">Branding</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+ <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="section-title">
+        <h2>Get In Touch</h2>
+    </div>
+    <div class="contact-form animate-on-scroll">
+        <form id="contactForm" action="https://formspree.io/f/mqalyopk" method="POST">
+            <input type="hidden" name="_subject" value="New message from portfolio contact form">
+            <input type="hidden" name="_replyto" id="_replyto">
+            <input type="text" name="_gotcha" style="display:none">
+            
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="www.linkedin.com/in/chijioke-umeokeke-5b88ab340" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Theboss70" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/TheBoss0_0_7" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:chijiokeumeokeke@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; <span id="current-year"></span> Umeokeke Chijioke M. All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+    <!-- Include SweetAlert2 (if not already included) -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- <script>
+        const form = document.getElementById('contactForm');
+
+        form.addEventListener('submit', async function (e) {
+            e.preventDefault(); // Stop normal form submission
+
+            const formData = new FormData(form);
+
+            try {
+                const response = await fetch(form.action, {
+                    method: form.method,
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    // Show success SweetAlert
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Message Sent!',
+                        text: 'Thank you! I will get back to you soon.',
+                        confirmButtonColor: '#4CAF50'
+                    });
+
+                    form.reset(); // Clear form fields
+                } else {
+                    // Show error SweetAlert
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Something went wrong. Please try again later.',
+                        confirmButtonColor: '#e74c3c'
+                    });
+                }
+            } catch (error) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Network Error',
+                    text: 'Check your internet connection and try again.',
+                    confirmButtonColor: '#e74c3c'
+                });
+            }
+        });
+    </script> -->
+
+</body>
+
+</html>

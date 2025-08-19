@@ -81,6 +81,21 @@ nav {
     width: 100%;
 }
 
+.hire-btn {
+  background: #2e8b57;  /* green or your primary color */
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.hire-btn:hover {
+  background: #1f6b3d; /* darker shade on hover */
+}
+
+
 /* Hero Section */
 .hero {
     height: 100vh;
@@ -454,4 +469,5 @@ footer {
     .nav-links {
         display: none;
     }
+
 }
